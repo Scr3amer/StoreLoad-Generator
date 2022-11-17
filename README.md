@@ -1,3 +1,6 @@
+## Branch difference
+In this branch, I test with atomics to see which memory order avoids the reordering and on which variable it has to be applied.
+
 # StoreLoad-Generator
 A proof of concept on how to trigger CPU StoreLoad reordering efficiently.
 

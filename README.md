@@ -1,7 +1,7 @@
 # StoreLoad-Generator
 A proof of concept on how to trigger CPU StoreLoad reordering efficiently.
 
-# DISCLAIMER:
+## DISCLAIMER:
 I am not an expert, maybe this code is totally wrong but the observed behavior seems to make sense.
 
 ### To compile it with no barrier:

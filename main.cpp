@@ -48,7 +48,6 @@ void thread2()
 #else
 		y.store(1, std::memory_order_seq_cst);
 #endif
-		y.store(1, std::memory_order_seq_cst);
 		r2.store(x, std::memory_order_relaxed);
 		syncPoint.arrive_and_wait();
 	}
